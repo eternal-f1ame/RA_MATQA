@@ -1,6 +1,6 @@
-# MWP-BERT on English Dataset
+# RA MATQA (Retrieval Augmented Math Question Answering)
 
-We build our implementation based on the code from https://github.com/zwx980624/mwp-cl, thanks for their contribution!
+We build our implementation based on the code from https://github.com/LZhenwen/MWP-BERT, thanks for their contribution!
 
 ## Network Training
 
@@ -24,14 +24,18 @@ Load the pre-trained model from your desired path.
 
 Please find at https://drive.google.com/drive/folders/1QC7b6dnUSbHLJQHJQNwecPNiQQoBFu8T?usp=sharing.
 
-## Citation
+## Our Major Contribution
 
-```
-@inproceedings{liang2022mwp,
-  title={MWP-BERT: Numeracy-Augmented Pre-training for Math Word Problem Solving},
-  author={Liang, Zhenwen and Zhang, Jipeng and Wang, Lei and Qin, Wei and Lan, Yunshi and Shao, Jie and Zhang, Xiangliang},
-  booktitle={Findings of NAACL 2022},
-  pages={997--1009},
-  year={2022}
-}
-```
+* The folder "tools" consists of code relevant to the Retrieval Augmented QA.
+  * Code for dataset preparation is in the `prepare_data_with_retr.py`.
+  * Code for fetching nearest neighbours on runtime is contained in `retrieve_nearest_neighbors.py` sequentially making use of `extract_ques_bert_embedding.py`.
+  * Now run the `remove_watermark.py` file to see the results.
+
+* The training and evaluation results are in `result/log.txt`
+* For more comprehensive analysis and comparison, refer to [report](/documents/report.pdf).
+
+### Contributors
+
+> Aaditya Baranwal baranwal.1@iitj.ac.in ;  Github: [eternal-f1ame](https://github.com/aeternum) <br>
+> Nakul Sharma sharma.86@iitj.ac.in ; Github: [thisis-nakul](https://github.com/thisis-nakul) <br>
+> Saahil Bhavsar bhavsar.2@iitj.ac.in ; Github: [xander-watson](https://github.com/xander-watson) 
