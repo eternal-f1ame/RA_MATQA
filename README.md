@@ -32,7 +32,7 @@ Please find at https://drive.google.com/drive/folders/1QC7b6dnUSbHLJQHJQNwecPNiQ
   * Now run the `remove_watermark.py` file to see the results.
 
 * The training and evaluation results are in `result/log.txt`
-* For more comprehensive analysis and comparison, refer to [report](/documents/report.pdf).
+* For more comprehensive analysis and comparison, refer to [report](/doc/report.pdf).
 
 ### Contributors
 
