@@ -29,7 +29,6 @@ Please find at https://drive.google.com/drive/folders/1QC7b6dnUSbHLJQHJQNwecPNiQ
 * The folder "tools" consists of code relevant to the Retrieval Augmented QA.
   * Code for dataset preparation is in the `prepare_data_with_retr.py`.
   * Code for fetching nearest neighbours on runtime is contained in `retrieve_nearest_neighbors.py` sequentially making use of `extract_ques_bert_embedding.py`.
-  * Now run the `remove_watermark.py` file to see the results.
 
 * The training and evaluation results are in `result/log.txt`
 * For more comprehensive analysis and comparison, refer to [report](/doc/report.pdf).
