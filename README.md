@@ -1,6 +1,6 @@
 # RA MATQA (Retrieval Augmented Math Question Answering)
 
-We build our implementation based on the code from https://github.com/LZhenwen/MWP-BERT, thanks for their contribution!
+We build our implementation based on the code from https://github.com/LZhenwen/MWP-BERT. Thanks for their contribution!
 
 ## Network Training
 
